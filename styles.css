@@ -1,0 +1,25 @@
+
+body {
+    width: 100vw;
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: white;
+}
+header,.one,.two,.three,.four,footer {
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+header {
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 0 auto;
+}
