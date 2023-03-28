@@ -3,18 +3,27 @@ body {
     width: 100vw;
     margin: 0;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: white;
+.links{
+    display: flex;
+    gap: 25px;
 }
+
+.links a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: transparent;
+}
+
 header,.one,.two,.three,.four,footer {
     display: flex;
     padding-right: 10%;
     padding-left: 10%;
 }
 
-header {
+header{
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
@@ -22,4 +31,7 @@ header {
 
 .logo {
     margin-right: 0 auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
