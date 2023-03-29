@@ -144,6 +144,37 @@ button {
     color: #1f2937;
 }
 
-.quotation {
+.thor {
     align-self: flex-end;
+}
+
+/*SIGN UP SECTION*/
+
+.four { 
+    padding: 80px 17% 80px 17%;
+}
+
+.sign-up-content {
+    background-color: #3882f6;
+    padding: 25px 100px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.sign-up {
+    color: #e5e7eb;
+}
+
+.sign-up h2 {
+    margin-bottom: 0;
+}
+
+.sign-up p {
+    margin-top: 5px;
+}
+
+.sign-up-content button {
+    border: 2px solid;
 }
