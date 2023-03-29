@@ -22,7 +22,7 @@ body {
 
 /* HEADER */
 
-.header,.one{
+.header,.one,.three{
     display: flex;
     padding-right: 17%;
     padding-left: 17%;
@@ -125,4 +125,25 @@ button {
 .info-item p {
     width: 150px;
     text-align: center;
+    margin: 10px;
+}
+
+/*QUOTE SECTION*/ 
+
+.three {
+    background-color: #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotation {
+    align-self: flex-end;
 }
