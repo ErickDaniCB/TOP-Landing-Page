@@ -178,3 +178,16 @@ button {
 .sign-up-content button {
     border: 2px solid;
 }
+
+/*FOOTER*/ 
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
+
+span {
+    margin: 0 4px 0 4px;
+}
